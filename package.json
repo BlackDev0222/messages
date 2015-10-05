@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "description": "Simple blog using React.js, Node.js with Express, MongoDB and Sass.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "morgan": "~1.1.1",
+    "body-parser": "~1.4.3",
+    "bcrypt": "*",
+    "cookie-parser": "*",
+    "cookie-session": "*"
+  },
+  "author": "Peter",
+  "license": "ISC"
+}
