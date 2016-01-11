@@ -1,0 +1,56 @@
+// Content Div where React.JS views go
+
+$cloudy-blue: #ECF6FF;
+
+#content {
+	background: $cloudy-blue;
+	padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+	margin-bottom: 40px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-ms-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
+
+  // Form styling
+
+  input[type="text"] {
+    width: 99%;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 1.4em;
+    border: 0;
+    outline: none;
+    padding: 6px;
+    border: 1px solid #999999;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    -ms-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  }
+
+  input::-webkit-input-placeholder {
+	  font-style: italic;
+  }
+
+  textarea {
+    width: 100%;
+    height: 283px;
+    font-size: 16px;
+  }
+}
